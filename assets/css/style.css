@@ -14,12 +14,16 @@ body {
   color: #444444;
 }
 
-a {
+a :not(idea) {
   color: #47b2e4;
   text-decoration: none;
 }
+.idea{
+  color: white;
+  text-decoration: none;
 
-a:hover {
+}
+a:hover :not(idea) {
   color: #73c5eb;
   text-decoration: none;
 }
